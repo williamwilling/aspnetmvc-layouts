@@ -1,0 +1,15 @@
+﻿@* The layout contains all HTML code that is common to all views. *@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Layouts</title>
+	</head>
+
+	<body>
+		@* The RenderBody() function retrieves the HTML that is specific to the current view and adds it
+		to the page at this position in the code. To see the result, right-click on the page in your
+		browser and select View Page Source (or whatever the option is called in your browser of choice). *@
+		@RenderBody()
+	</body>
+</html>
